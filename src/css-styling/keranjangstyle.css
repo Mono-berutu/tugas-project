@@ -1,0 +1,70 @@
+.keranjang {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.keranjang h2 {
+    background-color: rgb(57, 211, 173);
+    text-align: center;
+    padding: 2px 0;
+}
+
+.kembali-h {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keranjang img {
+    width: 65px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn .jumlah {
+    border-radius: 0%;
+    background-color: cadetblue;
+    margin-right: 0%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.isi-keranjang {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 10px;
+}
+
+.isi-keranjang button:nth-child(6) {
+    border-radius: 15%;
+    background-color: rgb(251, 255, 0);
+}
+
+.isi-keranjang button:nth-child(6):hover {
+    background-color: rgb(255, 174, 0);
+}
+
+.total-harga {
+    background-color: rgb(255, 165, 29);
+    display: flex;
+    gap: 10px;
+}
+
+.gayakeranjang {
+    border: 3px solid rgb(255, 165, 29);
+}
